@@ -1,0 +1,49 @@
+@media (min-width: 801px) and (max-width: 1100px) {
+  .login-form,
+  .forgot-password-form,
+  .register-form {
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .login-form,
+  .forgot-password-form,
+  .register-form,
+  .profile-form {
+    width: 90% !important;
+  }
+  .forgot-input-container,
+  .login-input-container,
+  .register-form-container {
+    flex-direction: column;
+  }
+  .button-node,
+  .text-node {
+    margin-left: 0px !important;
+  }
+  .forgot-input-container-child1 {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 499px) {
+  .login-form,
+  .forgot-password-form,
+  .register-form,
+  .profile-form {
+    width: 90% !important;
+  }
+  .forgot-input-container,
+  .login-input-container,
+  .register-form-container {
+    flex-direction: column;
+  }
+  .button-node,
+  .text-node {
+    margin-left: 0px !important;
+  }
+  .forgot-input-container-child1 {
+    width: 90% !important;
+  }
+}

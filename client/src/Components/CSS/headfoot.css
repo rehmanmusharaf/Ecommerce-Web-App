@@ -1,0 +1,27 @@
+@media (min-width: 500px) and (max-width: 800px) {
+  .footer-heading {
+    font-size: 20px;
+  }
+  .header-heading {
+    font-size: 20px !important;
+  }
+  .navbar-content {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 499px) {
+  .footer-heading {
+    font-size: 15px;
+    text-align: center;
+  }
+  .header-heading {
+    font-size: 15px !important;
+  }
+  .hamburger {
+    padding: 2px 4px !important;
+  }
+  .navbar-content {
+    margin-top: 10px;
+  }
+}

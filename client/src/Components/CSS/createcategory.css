@@ -1,0 +1,88 @@
+.category-list-item {
+  min-height: 50px;
+  width: 80%;
+  border: 0.3px solid grey;
+  border-radius: 10px;
+  padding-left: 6px;
+}
+
+.icon-about-product {
+  width: 30%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.title-of-product {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.icon-about-product > button {
+  padding: 5px 20px;
+}
+.icon-about-product > svg:hover {
+  color: red;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* ADD category css  */
+
+.add-category-container {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.add-category-child {
+  min-height: 80vh;
+  height: auto;
+  width: 80%;
+  background-color: white;
+  animation-name: form-animation;
+  animation-duration: 1s;
+  position: relative;
+  top: 0;
+  padding: 10px 0px;
+}
+@keyframes form-animation {
+  0% {
+    top: 700px;
+  }
+  100% {
+    top: 0;
+  }
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value for the desired transparency */
+  z-index: 1; /* Ensure the overlay is above other elements */
+}
+
+.close-icon {
+  position: absolute;
+  left: 96%;
+  top: 2%;
+}
+
+.close-icon :hover {
+  color: red;
+  cursor: pointer;
+}

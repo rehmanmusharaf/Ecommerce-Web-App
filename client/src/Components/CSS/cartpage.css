@@ -1,0 +1,42 @@
+.cartpage-container-child2,
+.cartpage-container-child1 {
+  width: 50%;
+}
+.delete-icon :hover {
+  color: red;
+  cursor: pointer;
+  box-shadow: 2px 2px 35px red;
+}
+.cartpage-item-child1 {
+  width: 75%;
+}
+
+.cartpage-item-child2 {
+  width: 25%;
+}
+@media (min-width: 500px) and (max-width: 800px) {
+  .cartpage-container {
+    flex-direction: column;
+  }
+  .cartpage-container-child2,
+  .cartpage-container-child1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 499px) {
+  .cartpage-container-child2,
+  .cartpage-container-child1 {
+    width: 100%;
+  }
+  .cartpage-img {
+    width: 65px !important;
+  }
+  .cartpage-item-child1 {
+    width: 90%;
+  }
+
+  .cartpage-item-child2 {
+    width: 10%;
+  }
+}
