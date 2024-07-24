@@ -1,6 +1,6 @@
 import React from "react";
 import "./CSS/Aboutpage.css";
-import CV from "../resources/cv.docx";
+import CV from "../resources/resume.pdf";
 import mineImg from "../resources/mineimg.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "react-router-dom";
@@ -47,7 +47,7 @@ const Aboutme = () => {
             me to build robust and scalable solutions.
           </p>
           <a href={CV} download className="download-button">
-            Download CV
+            Download Resume
           </a>
         </div>
       </div>

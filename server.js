@@ -13,9 +13,9 @@ require("dotenv").config();
 app.use(express.static(path.join(__dirname, "./client/build")));
 mongoconnect();
 const PORT = process.env.PORT || 8080;
-app.use("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+// app.use("*", function (req, res) {
+//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
+// });
 app.post("/api/createuser", authroutes);
 app.post("/api/login", authroutes);
 app.get("/test", authroutes);
